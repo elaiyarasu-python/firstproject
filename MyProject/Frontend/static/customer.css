@@ -1,0 +1,103 @@
+/* Google Font (Optional) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Page Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #f8f9fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+    width: 400px;
+    background: white;
+    padding: 30px 35px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    border-top: 6px solid #1565c0;
+}
+
+/* Heading */
+.form-container h1 {
+    text-align: center;
+    color: #0d47a1;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Paragraph */
+.form-container p {
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #222;
+    font-size: 14px;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cfd8dc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    background: #f9f9f9;
+    transition: 0.3s;
+    margin-bottom: 18px;
+}
+
+/* Textarea Height */
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* Input Focus Effect */
+input:focus, textarea:focus {
+    border-color: #1565c0;
+    background: white;
+    box-shadow: 0px 0px 6px rgba(21, 101, 192, 0.4);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1565c0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Button Hover */
+button:hover {
+    background: #0d47a1;
+    transform: scale(1.02);
+}
+
+/* Button Click */
+button:active {
+    transform: scale(0.98);
+}
